@@ -3,7 +3,7 @@ var mongoose = require("mongoose");
 var uristring =
   process.env.MONGOLAB_URI ||
   process.env.MONGOHQ_URL ||
-  'mongodb://gunendu:promax@paulo.mongohq.com:10094/mydb';
+  'mongodb://gunendu:promax@paulo.mongohq.com:10023/myMangoDb';
 
 mongoose.connect(uristring, function (err, res) {
   if (err) {
