@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 var model = mongoose.model( 'WebData' );
-//model.remove().exec();
+model.remove().exec();
 
 var monthNames = [ "January","Jan", "February","Feb", "March","Mar", "April", "May", "June",
 "July", "August", "Aug", "September","Sept", "October","Oct", "November","Nov", "December","Dec" ];
